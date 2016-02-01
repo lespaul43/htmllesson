@@ -1,9 +1,59 @@
 body {
     margin: 0;
 }
+table, td {
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 2px solid;
+}
 #main {
-    border: 2px;
     width: 780px;
     margin: 0 auto;
 }
 
+
+#header {
+    background: url(images/header-backgroung.png);
+    width: 780px;
+    height: 117px;
+}
+
+#menu {
+    background: url(images/menu.png);
+    width: 780px;
+    height: 47px;
+}
+
+#footer {
+    background: url(images/footer-background.png);
+    width: 780px;
+    height: 77px;
+}
+
+#footermenu {
+    background: url(images/menu.png);
+    width: 780px;
+    height: 47px;
+}
+
+#topcontent {
+    background: url(images/content-background.png);
+    width: 565px;
+    height: 288px;
+}
+
+#wrapper {
+    background: url(images/headers-background.png);
+    height: 42px;
+}
+
+#content {
+    width: 593px;
+}
+
+#bottomcontent {
+    background: url(images/LINE.png);
+    width: 546px;
+    height: 326px;
+}
