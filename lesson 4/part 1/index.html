@@ -1,0 +1,51 @@
+   <!doctype html>
+        <html>
+        <head>
+           <meta charset="utf-8">
+            <title>Задания по таблицам</title>
+            <link rel="stylesheet" href="style.css" type="text/css">
+        </head>
+        <body>
+            <table class="main">
+                <tr>
+                    <td rowspan="3">1</td>
+                    <td class="small">2</td>
+                    <td class="small">3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">4</td>
+                </tr>
+                <tr>
+                    <td class="small">5</td>
+                    <td class="small">6</td>
+                </tr>
+            </table>
+            <p></p>
+            <table class="second">
+                <tr>
+                    <td class="small" colspan="2">10</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td rowspan="2" colspan="2" class="innertd">
+                    <table class="inner">
+                        <tr>
+                            <td rowspan="2">100</td>
+                            <td rowspan="3">200</td>
+                            <td class="small">300</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">500</td>
+                        </tr>
+                        <tr>
+                            <td class="small">400</td>
+                        </tr>
+                    </table></td>
+                </tr>
+                <tr>
+                    <td>40</td>
+                </tr>
+            </table>
+        </body>
+    </html>
