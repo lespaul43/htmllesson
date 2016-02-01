@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+#main {
+    border: 2px;
+    width: 780px;
+    margin: 0 auto;
+}
+
