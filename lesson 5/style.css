@@ -1,0 +1,58 @@
+div {
+    width: 100px;
+    height: 100px;
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+.green {
+    background-color: green;
+    position: relative;
+}
+
+.black {
+    background-color: black;
+    position: relative;
+
+}
+
+.brown {
+    background-color: brown;
+    position: relative;
+}
+
+.white {
+    position: relative;
+}
+
+.left {
+    position: relative;
+    width:200px;
+    height: 200px;
+    border: 2px solid;
+}
+
+.blue {
+    background-color: blue;
+    width:150px;
+    height: 170px;
+    position: absolute;
+    top:160px;
+    left:145px;
+}
+
+.right {
+    background-color: gray;
+    position: relative;
+    width: 400px;
+    height: 160px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.red {
+    background-color: red;
+    width: 400px;
+    height: 160px;
+}
