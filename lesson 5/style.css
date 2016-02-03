@@ -6,6 +6,15 @@ div {
     float: left;
 }
 
+.blue {
+    background-color: blue;
+    width:150px;
+    height: 170px;
+    position: absolute;
+    top:160px;
+    left:145px;
+}
+
 .green {
     background-color: green;
     position: relative;
@@ -33,15 +42,6 @@ div {
     border: 2px solid;
 }
 
-.blue {
-    background-color: blue;
-    width:150px;
-    height: 170px;
-    position: absolute;
-    top:160px;
-    left:145px;
-}
-
 .right {
     background-color: gray;
     position: relative;
@@ -55,4 +55,10 @@ div {
     background-color: red;
     width: 400px;
     height: 160px;
+}
+
+.clean {
+    position: absolute;
+    left: 455px;
+
 }
