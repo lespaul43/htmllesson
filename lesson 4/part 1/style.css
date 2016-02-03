@@ -1,0 +1,40 @@
+body {
+    background-color:azure;
+    margin: 0 auto;
+}
+table {
+    border:1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+.main {
+    width:600px;
+    height:200px;
+}
+.second {
+    width:600px;
+    height:200px;   
+}
+td,tr {
+    border: 1px solid black;
+}
+.small {
+    height:25px;
+}
+
+.inner {
+    padding: 15px;
+    width:80%;
+    height:80%;
+}
+
+.innertd {
+    padding: 10px;
+}
+
+.regtable {
+    text-align: left;
+}
+.submit {
+    text-align: center;
+}
